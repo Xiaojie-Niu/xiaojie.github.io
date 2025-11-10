@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## Welcome! 
+## Welcome! (非正式版本,还在建设中....)
 
 I am an **Assistant Professor** at the [School of Teacher Education](https://iase.sdu.edu.cn/index.htm), Shandong University, China.
 
