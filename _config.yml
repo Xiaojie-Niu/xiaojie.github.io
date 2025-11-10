@@ -7,11 +7,11 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"  # 可以改为 "en-US"
-title                    : "牛晓杰的学术主页 / Xiaojie Niu's Academic Page"
+locale                   : "en-US"
+title                    : "Xiaojie Niu | 牛晓杰"
 title_separator          : "-"
-name                     : &name "牛晓杰 / Xiaojie Niu"
-description              : &description "山东大学教师教育学院助理研究员"
+name                     : &name "Xiaojie Niu"
+description              : &description "Assistant Researcher in Learning Sciences & Educational Technology"
 url                      : https://xiaojie-niu.github.io
 baseurl                  : "/xiaojie.github.io"
 repository               : "xiaojie-niu/xiaojie.github.io"
@@ -20,14 +20,13 @@ repository               : "xiaojie-niu/xiaojie.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  name             : "牛晓杰 / Xiaojie Niu"
-  avatar           : "profile.png"  # 放在 images 文件夹
-  bio              : "助理研究员 @山东大学<br>研究方向：学习科学、学习分析、人工智能教育"
-  location         : "济南, 中国"
-  employer         : "山东大学"
-  pubmed           : 
+  name             : "Xiaojie Niu | 牛晓杰"
+  avatar           : "profile.png"
+  bio              : "Assistant Researcher<br>Learning Analytics | Educational Technology"
+  location         : "Shandong University, China"
+  employer         : "School of Teacher Education"
+  email            : "xiaojie.niu AT mail.bnu.edu.cn"
   googlescholar    : "https://scholar.google.com.hk/citations?hl=zh-CN&user=zc_ZBNkAAAAJ"
-  email            : "xiaojie.niu@mail.bnu.edu.cn"
   researchgate     : 
   uri              :
   bitbucket        :
@@ -192,16 +191,14 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  research:
     output: true
     permalink: /:collection/:path/
-  talks:
+  posts:
     output: true
     permalink: /:collection/:path/
 
@@ -271,9 +268,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Plugins
