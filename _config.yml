@@ -21,7 +21,7 @@ repository               : "xiaojie-niu/xiaojie.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   name             : "Xiaojie Niu | 牛晓杰"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "Assistant Researcher<br>Learning Analytics | Educational Technology"
   location         : "Shandong University, China"
   employer         : "School of Teacher Education"
